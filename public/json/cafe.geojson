@@ -1,0 +1,129 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Kaffebrenneriet, Universitetsgata" },
+      "geometry": {
+        "coordinates": [10.736968542328043, 59.914964214151155],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Baker Hansen, Rosenkrantz gate" },
+      "geometry": {
+        "coordinates": [10.735653810129065, 59.911550436786996],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Espresso House, Markveien" },
+      "geometry": {
+        "coordinates": [10.757525025182815, 59.921159014636316],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fuglen"
+      },
+      "geometry": {
+        "coordinates": [10.739790728836766, 59.91712253429057],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oslo Raw"
+      },
+      "geometry": {
+        "coordinates": [10.73423154232782, 59.93285562469819],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Liebling"
+      },
+      "geometry": {
+        "coordinates": [10.756807728836463, 59.92726562379201],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiosk Kaffebar"
+      },
+      "geometry": {
+        "coordinates": [10.746916728835487, 59.907588414609336],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tim Wendelboe"
+      },
+      "geometry": {
+        "coordinates": [10.75549399999818, 59.92340913050492],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baker Nordby, Tøyen"
+      },
+      "geometry": {
+        "coordinates": [10.775941726871055, 59.91512299311516],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Åpent bakeri, paleet"
+      },
+      "geometry": {
+        "coordinates": [10.737271184657118, 59.914487411502705],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grains Bakeri"
+      },
+      "geometry": {
+        "coordinates": [10.715832654450786, 59.93024275618359],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Svingen Kolonial og Kafe"
+      },
+      "geometry": {
+        "coordinates": [10.77666349677681, 59.90130046600219],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kafe Celcius"
+      },
+      "geometry": {
+        "coordinates": [10.740322354449022, 59.910406159638676],
+        "type": "Point"
+      }
+    }
+  ]
+}

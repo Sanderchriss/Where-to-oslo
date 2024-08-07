@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Sognsvann" },
+      "geometry": {
+        "coordinates": [10.72534978032806, 59.97094438852423],
+        "type": "Point"
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Frognerseteren" },
+      "geometry": {
+        "coordinates": [10.678999345329572, 59.9777867388446],
+        "type": "Point"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Grefsenkollen" },
+      "geometry": {
+        "coordinates": [10.803742744482577, 59.957937638468024],
+        "type": "Point"
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Kampen, Vålerenga" },
+      "geometry": {
+        "coordinates": [10.77922453744859, 59.9140995579135],
+        "type": "Point"
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Svartdalsparken" },
+      "geometry": {
+        "coordinates": [10.798584496777053, 59.904053814495484],
+        "type": "Point"
+      },
+      "id": 3
+    }
+  ]
+}

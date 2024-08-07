@@ -1,0 +1,109 @@
+/*body,*/
+/*html,*/
+/*#root {*/
+/*  height: 100%;*/
+/*  margin: 0;*/
+/*}*/
+
+/*.main-content {*/
+/*  padding-bottom: 60px;*/
+/*}*/
+
+/*.navbar {*/
+/*  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*.btn {*/
+/*  width: 20%;*/
+/*}*/
+/** {*/
+/*  margin: 0;*/
+/*}*/
+
+/*CSS RESET*/
+html {
+  box-sizing: border-box;
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.map {
+  position: fixed;
+  width: 100dvw;
+  height: 100dvh;
+}
+
+div.ol-control.ol-unselectable.ol-control button.ol-zoom-out,
+div.ol-control.ol-unselectable.ol-control button.ol-zoom-in {
+  display: none;
+
+  transition: transform 0.3s; /* Add a transition for smoother scaling */
+  transform: translate(-20%, -20%) scale(1);
+  position: fixed;
+}
+.ol-zoom-out {
+  left: 3%;
+  top: 78%;
+  scale: 320%;
+}
+.ol-zoom-in {
+  left: 97%;
+  top: 78%;
+  scale: 320%;
+}
+
+.district-overlay {
+  position: absolute;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  text-align: center;
+  background-color: #242424;
+  font-size: initial;
+  color: #2dc316;
+  z-index: 5000;
+}
+.overlay {
+  background-color: #f5f5f5;
+  padding: 0.5em;
+  translate: -50% calc(-100% - 5px);
+}
+/*.dropdown-row {*/
+/*  cursor: pointer;*/
+/*  text-align: center;*/
+/*  margin: 1px 0;*/
+
+/*  background-color: white;*/
+/*}*/

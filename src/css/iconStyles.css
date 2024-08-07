@@ -1,0 +1,212 @@
+/* Button Styles */
+.icon-button,
+.buttons-column {
+  background: none;
+  border: none;
+}
+
+.buttons-column {
+  position: fixed;
+  top: 5rem;
+  right: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons-column > * {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+/* Overlay Styles */
+.search-overlay,
+.favorite-overlay,
+.settings-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1055;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  animation: slideInRight 0.5s ease-in-out;
+  backdrop-filter: blur(3px);
+}
+
+.search-overlay.show,
+.favorite-overlay.show,
+.settings-overlay.show {
+  display: flex;
+  visibility: visible;
+  width: 100%; /* Set width to 100% */
+  height: 100%; /* Set height to 100% */
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Overlay Content Styles */
+.search-overlay-content,
+.favorite-overlay-content,
+.settings-overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40rem; /* Fixed width */
+  max-width: 90%; /* Adjusted max-width to ensure it fits within the screen */
+  background-color: #ffffff;
+  padding: 2rem; /* Adjusted padding in rem */
+  border-radius: 1rem;
+  text-align: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1052;
+  gap: 1rem;
+  max-height: 87%;
+  overflow-y: auto;
+}
+
+.overlay-close-button {
+  position: absolute;
+  top: 1rem; /* Adjusted top padding in rem */
+  right: 1rem; /* Adjusted right padding in rem */
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.dropdown-button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 0.5rem 1rem; /* Adjusted padding in rem */
+  margin-bottom: 0.5rem; /* Adjusted margin in rem */
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+}
+
+.dropdown-button.open {
+  background-color: #ddd;
+}
+
+.dropdown-button.closed {
+  background-color: #f0f0f0;
+}
+
+/* User Agreement Dropdown Styles */
+.user-agreement-dropdown {
+  padding: 1rem; /* Adjusted padding in rem */
+  border: 0.1rem solid #ccc; /* Adjusted border in rem */
+  border-radius: 0.5rem; /* Adjusted border-radius in rem */
+  margin-top: 0.5rem; /* Adjusted margin in rem */
+  margin-bottom: 0.5rem;
+  background-color: #f9f9f9;
+  max-height: 20rem; /* Adjusted max-height in rem */
+  overflow-y: auto; /* Enable vertical scrolling */
+  text-align: left;
+}
+
+.user-agreement-scroll-container {
+  width: 100%; /* Ensure the scroll container takes up the full width */
+  max-height: 9rem; /* Adjusted max-height in rem */
+  overflow-y: auto;
+}
+
+.user-agreement-button {
+  background-color: #ffffff; /* Background color */
+  color: #333; /* Text color */
+  border: 0.1rem solid #447151;
+  padding: 0.5rem 1rem; /* Adjusted padding in rem */
+  margin-bottom: 0.5rem; /* Adjusted margin in rem */
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 0.8rem; /* Adjusted border-radius in rem */
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+.withdraw-consent-button {
+  background-color: #ffffff; /* Background color */
+  color: #333; /* Text color */
+  border: 0.1rem solid #447151;
+  padding: 0.5rem 1rem; /* Adjusted padding in rem */
+
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 0.8rem; /* Adjusted border-radius in rem */
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+.light-dark-buttons {
+  background-color: #ffffff; /* Background color */
+  color: #333; /* Text color */
+  border: 0.1rem solid #447151;
+  padding: 0.5rem 1rem; /* Adjusted padding in rem */
+  margin-bottom: 0.5rem; /* Adjusted margin in rem */
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 0.8rem; /* Adjusted border-radius in rem */
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+  margin-left: 1rem; /* Add this line */
+  margin-right: 1rem; /* Add this line */
+}
+
+.search-overlay {
+  display: none;
+}
+
+.search-overlay.show {
+  display: flex;
+}
+
+.search-input {
+  height: 0.5rem;
+  width: 90%;
+  padding: 1.5rem;
+  font-size: 2rem;
+  border: 0.1rem solid #ccc;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.search-results {
+  display: none;
+  margin-top: 1rem; /* Add top margin for spacing */
+  width: 100%; /* Expand to full width */
+  margin-left: auto;
+  margin-right: auto;
+  align-items: flex-start;
+  transform: translateX(-3%);
+}
+.search-result-item {
+  width: 100%;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1); /* Add a slight border */
+  border-radius: 0.5rem; /* Add border radius for rounded corners */
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1); /* Add slight shadow */
+  padding: 1rem; /* Add padding inside the result item */
+  margin-bottom: 1rem; /* Add bottom margin for spacing between items */
+  text-align: left; /* Align text to the left */
+}
+
+.search-results.show {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  gap: 0.5rem;
+}

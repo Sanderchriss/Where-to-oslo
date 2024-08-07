@@ -1,0 +1,99 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Naturhistorisk Museum" },
+      "geometry": {
+        "coordinates": [10.771935313491184, 59.91931320657585],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Frammuseet" },
+      "geometry": {
+        "coordinates": [10.699487228837455, 59.903310047141474],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Latter scene" },
+      "geometry": {
+        "coordinates": [10.726605902105689, 59.91079278870873],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vega Scene"
+      },
+      "geometry": {
+        "coordinates": [10.752348243351804, 59.91907484745431],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grushomhetens teater"
+      },
+      "geometry": {
+        "coordinates": [10.752453890226548, 59.91933539792211],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Megazone"
+      },
+      "geometry": {
+        "coordinates": [10.749274207951942, 59.91610669371468],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tryvann Vinterpark"
+      },
+      "geometry": {
+        "coordinates": [10.666863728836773, 59.98803179286011],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KOK Oslo"
+      },
+      "geometry": {
+        "coordinates": [10.748915541000713, 59.90781838374659],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bygdøy"
+      },
+      "geometry": {
+        "coordinates": [10.679318305340871, 59.912086619429836],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Frognerparken"
+      },
+      "geometry": {
+        "coordinates": [10.703559227464755, 59.92670289745729],
+        "type": "Point"
+      }
+    }
+  ]
+}

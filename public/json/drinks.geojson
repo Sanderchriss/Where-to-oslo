@@ -1,0 +1,113 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Brygg", "description": "Bar" },
+      "geometry": {
+        "coordinates": [10.748415272617194, 59.9132126301447],
+        "type": "Point"
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Parkteateret", "description": "Bar" },
+      "geometry": {
+        "coordinates": [10.758363201926898, 59.92351053201796],
+        "type": "Point"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Lektern", "description": "Bar" },
+      "geometry": {
+        "coordinates": [10.727965191226161, 59.90956805354443],
+        "type": "Point"
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Herr Nilsen" },
+      "geometry": {
+        "coordinates": [10.740904850382549, 59.91544772676275],
+        "type": "Point"
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Schouskjelleren", "description": "Bar" },
+      "geometry": {
+        "coordinates": [10.760463728836356, 59.91838888824651],
+        "type": "Point"
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Blå", "description": "Drink" },
+      "geometry": {
+        "coordinates": [10.752909728835505, 59.92012136790498],
+        "type": "Point"
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Crow Bar and Brewery", "description": "Bar" },
+      "geometry": {
+        "coordinates": [10.753522999998893, 59.917220133513666],
+        "type": "Point"
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Røør", "description": "Bar" },
+      "geometry": {
+        "coordinates": [10.740411271162628, 59.91519362183564],
+        "type": "Point"
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Torggata Botaniske", "description": "Drink" },
+      "geometry": {
+        "coordinates": [10.752148550237479, 59.916082510502605],
+        "type": "Point"
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Asylet", "description": "Bar" },
+      "geometry": {
+        "coordinates": [10.761010590485542, 59.91445938035087],
+        "type": "Point"
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Frognerseteren", "description": "Bar" },
+      "geometry": {
+        "coordinates": [10.67858636534918, 59.980599683237706],
+        "type": "Point"
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Smia galleri", "description": "Bar" },
+      "geometry": {
+        "coordinates": [10.78569481857125, 59.91005868258227],
+        "type": "Point"
+      },
+      "id": 10
+    }
+  ]
+}

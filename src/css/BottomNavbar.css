@@ -1,0 +1,154 @@
+.bottomNavbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6rem;
+  background-color: #ffffff;
+  z-index: 1000;
+}
+
+.bottomNavbar-buttons {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+  margin-top: -0.5rem;
+  padding: 3px;
+}
+
+.categoryIconContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bottomNavbar-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#bottomNavbarText {
+  color: black;
+  display: flex;
+  font-size: 17px;
+}
+
+.bottomNavbar-icon {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0.5rem;
+  width: 100%;
+  height: 100%;
+  z-index: 1050;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.overlay.show {
+  display: flex;
+  visibility: visible;
+}
+
+.overlay.hide {
+  display: none;
+}
+
+.overlay-content {
+  position: relative;
+  top: 130vh; /* Adjust this value to move it closer to the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw; /* Allow the content to determine the width */
+  padding: 1rem;
+  border-radius: 3rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  animation: slideUp 0.5s ease-in-out forwards;
+  justify-content: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.category-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+.category-item {
+  display: flex;
+  justify-content: center;
+  align-content: space-evenly;
+  font-family: Agrandir;
+  font-size: larger;
+}
+.category-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 4.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    border-color 0.3s,
+    box-shadow 0.3s;
+  background-color: white;
+  border: 0.2rem solid #447151;
+}
+
+.category-button:not(.clicked) {
+  background-color: white;
+  color: #447151; /* Green text color */
+}
+
+.category-button.clicked {
+  background-color: #447151; /* Green background color */
+  color: white; /* White text color */
+}
+
+.container-box {
+  background-color: white;
+  border-radius: 2rem;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blur-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(3px); /* or any visual effect you want */
+}

@@ -1,0 +1,181 @@
+.top5IconContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.top5Icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px; /* Add space between icon and text */
+}
+
+.blur-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 999;
+}
+
+.top5Text {
+  font-size: 20px; /* Adjust text size as needed */
+}
+
+.overlay.show {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#top5Overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  background: rgba(68, 113, 81, 0.83); /* Set the background color to green */
+  padding: 1rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+  max-height: 80%;
+  overflow-y: auto;
+  width: 20rem;
+  height: 31rem;
+  left: 50%;
+  box-sizing: border-box;
+  top: 100%;
+}
+
+.top5-list {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%; /* Ensure the container is full width */
+}
+
+.top5-item {
+  margin-top: 1px; /* Reduced top margin */
+  margin-bottom: 5px; /* Reduced bottom margin */
+  width: 98%; /* Ensure the container for the button is 100% wide */
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top5-pinOverlay .top5-infoBox {
+  background: white;
+  padding: 15px; /* Add padding */
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  max-width: 200px; /* Adjust the width as needed */
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top5-item button {
+  display: flex;
+  align-items: center;
+  background-color: white; /* Set the button color to white */
+  color: black; /* Set the text color to black */
+  padding: 10px 10px; /* Increase the size of the button by adding more padding */
+  border: none; /* Remove the border */
+  width: 100%; /* Make the button fill the container width */
+  border-radius: 0.5rem; /* Add some roundness to the corners of the button */
+  font-size: 20px;
+  margin: 2px 0; /* Adjust margin to ensure buttons are evenly spaced */
+  cursor: pointer; /* Change the cursor when you hover over the button */
+  transition-duration: 0.4s; /* Add a transition effect when the button is hovered over */
+  text-align: center; /* Center text inside the button */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+  font-family: Agrandir;
+}
+
+.overlay-close-button {
+  color: white; /* Set text color to white */
+  background: none; /* Remove background if any */
+  border: none; /* Remove border */
+  font-size: 1.5rem; /* Adjust size as needed */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.top5-header {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.separator {
+  border: 0;
+  height: 1px;
+  background: #ffffff; /* Change the color of the separator as needed */
+  margin: 10px 0; /* Adjust the margin to control spacing */
+}
+
+.top5PlacesOverlay {
+  background: transparent;
+  padding: 1rem;
+  margin: -0.1rem;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.top5Results {
+  background: white;
+  font-family: Agrandir;
+}
+
+.back-button,
+.fa-arrow-left {
+  background: none;
+  border: none;
+  color: white; /* Change to your desired color */
+  font-size: 18px; /* Adjust the size as needed */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.back-button i {
+  margin-right: 8px; /* Space between icon and text */
+}
+
+.seeInMapBtn {
+  display: flex;
+  margin: 10px auto; /* Center horizontally and add margin at the top */
+  width: 100%; /* Make the button fill the container width */
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem; /* Vertically center text */
+  background-color: white; /* Background color of the button */
+  color: black; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 0.5rem; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.top5-item button img.icon {
+  margin-right: 10px; /* Space between icon and text */
+  width: 40px; /* Adjust icon size */
+  height: 40px; /* Adjust icon size */
+}
+
+.top5-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  width: 100%; /* Ensure the container is full width */
+}

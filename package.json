@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "npm run check && vite build",
+    "prettier": "prettier --write .",
+    "check": "prettier --check . && tsc --noEmit",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.51",
+    "@types/react-dom": "^18.2.18",
+    "husky": "^9.0.10",
+    "prettier": "^3.2.4",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "@types/bootstrap": "^5.2.10",
+    "bootstrap": "^5.3.3",
+    "ol": "^8.2.0",
+    "ol-mapbox-style": "^12.3.2",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.2",
+    "react-bootstrap-toggle": "^2.3.2",
+    "react-dom": "^18.2.0"
+  }
+}

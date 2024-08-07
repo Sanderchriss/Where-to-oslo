@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Statholdergaarden", "image": "restaurPin.png" },
+      "geometry": {
+        "coordinates": [10.743144249999148, 59.909491598435636],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Asia Aker Brygge", "image": "restaurPin.png" },
+      "geometry": {
+        "coordinates": [10.728499880406929, 59.91030939204009],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Maaemo", "image": "restaurPin.png" },
+      "geometry": {
+        "coordinates": [10.760382953705488, 59.910317851279416],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Mamma Pizza", "image": "restaurPin.png" },
+      "geometry": {
+        "coordinates": [10.74652173182837, 59.911194234363165],
+        "type": "Point"
+      }
+    }
+  ]
+}
