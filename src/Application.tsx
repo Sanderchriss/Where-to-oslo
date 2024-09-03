@@ -15,6 +15,8 @@ import { OSM } from "ol/source";
 import { ButtonsColumn } from "./buttons/ButtonsColumn";
 import { BottomNavbar } from "./navbar/bottomNavbar";
 import { MapboxVectorLayer } from "ol-mapbox-style";
+import AdminPanel from "./admin/adminPanel";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 export function Application() {
   const { map } = useContext(MainContext);
@@ -88,18 +90,31 @@ export function Application() {
         setHikeFeatureLayers,
       }}
     >
-      <div>
-        <main>
-          <div
-            ref={mapRef}
-            className="map map-container position-relative"
-          ></div>
-          <ButtonsColumn />
-          <div className="navbarContainer">
-            <BottomNavbar />
-          </div>
-        </main>
-      </div>
+      <Router>
+        <Routes>
+          {/* Route for the Admin Panel */}
+          <Route path="Where-to-oslo/admin" element={<AdminPanel />} />
+
+          {/* Default route for your main application */}
+          <Route
+            path="/Where-to-oslo/"
+            element={
+              <div>
+                <main>
+                  <div
+                    ref={mapRef}
+                    className="map map-container position-relative"
+                  ></div>
+                  <ButtonsColumn />
+                  <div className="navbarContainer">
+                    <BottomNavbar />
+                  </div>
+                </main>
+              </div>
+            }
+          />
+        </Routes>
+      </Router>
     </MainContext.Provider>
   );
 }
