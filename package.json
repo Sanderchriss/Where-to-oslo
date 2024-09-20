@@ -2,6 +2,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
+    "start": "serve -s dist",
     "build": "npm run check && vite build",
     "prettier": "prettier --write .",
     "check": "prettier --check . && tsc --noEmit",
