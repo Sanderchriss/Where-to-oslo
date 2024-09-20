@@ -111,6 +111,10 @@ const AdminPanel: React.FC = () => {
           />
         </div>
         <div>
+          <label>Artikkel</label>
+          <textarea></textarea>
+        </div>
+        <div>
           <label>Rating:</label>
           <select
             name="rating"
