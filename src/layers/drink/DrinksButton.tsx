@@ -93,10 +93,10 @@ export function DrinksButton() {
             </p>
             <p>
               spesialiserer seg i øl, og har en hel tavle med en hel masse
-              forskjellige typer øl. Her kan man spille shuffleboard, så er
-              perfekt for en første date, vennegjeng som trenger noe å gjøre en
-              fredagskveld eller lønningspils med jobben. Romslig og chill
-              atmosfære.{" "}
+              forskjellige typer øl. <br /> Her kan man spille shuffleboard, så
+              er perfekt for en første date, <br /> vennegjeng som trenger noe å
+              gjøre en fredagskveld eller lønningspils med jobben. <br />{" "}
+              Romslig og chill atmosfære.
             </p>
             <AddFavoriteButton />
           </div>

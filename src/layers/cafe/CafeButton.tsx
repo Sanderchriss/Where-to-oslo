@@ -90,7 +90,7 @@ export function CafeButton() {
             <p>
               <b> {activeFeature.get("name")}</b>
             </p>
-            <p>lolololololololololololololololol</p>
+            <p></p>
           </div>
         )}
       </div>

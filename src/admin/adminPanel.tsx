@@ -130,7 +130,9 @@ const AdminPanel: React.FC = () => {
             <option value="5">5</option>
           </select>
         </div>
-        <button type="submit">Save</button>
+        <button className="adminButton" type="submit">
+          Save
+        </button>
       </form>
     </div>
   );
