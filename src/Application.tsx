@@ -93,7 +93,7 @@ export function Application() {
       <Router>
         <Routes>
           {/* Route for the Admin Panel */}
-          <Route path="Where-to-oslo/admin" element={<AdminPanel />} />
+          <Route path="/admin" element={<AdminPanel />} />
 
           {/* Default route for your main application */}
           <Route
