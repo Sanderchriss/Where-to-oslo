@@ -21,7 +21,7 @@ export const CenterOnUser: React.FC = () => {
         const marker = new Feature(new Point([longitude, latitude]));
         const iconStyle = new Style({
           image: new Icon({
-            src: "/Where-to-oslo/images/LocationBtn.svg",
+            src: "/images/LocationBtn.svg",
             anchor: [0.5, 1],
             scale: 1,
           }),

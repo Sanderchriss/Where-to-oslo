@@ -13,7 +13,7 @@ export type restaurantStyle = {
 export const restaurantStyle = () => {
   return new Style({
     image: new Icon({
-      src: "/Where-to-oslo/restaurPin.png",
+      src: "/restaurPin.png",
       anchor: [0.5, 1],
       scale: 0.05,
     }),
@@ -23,7 +23,7 @@ export const activeRestaurantStyle = () => {
   //const resolution = map.getView().getResolutions();
   return new Style({
     image: new Icon({
-      src: "/Where-to-oslo/restaurPin.png",
+      src: "/restaurPin.png",
       anchor: [0.5, 1],
       scale: 0.06,
     }),

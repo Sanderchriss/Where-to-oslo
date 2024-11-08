@@ -38,7 +38,7 @@ const AdminPanel: React.FC = () => {
     e.preventDefault();
 
     const storageKey = `${formData.category.toLowerCase()}Data`;
-    fetch("/where-to-oslo/", {
+    fetch("/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

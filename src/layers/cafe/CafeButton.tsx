@@ -18,7 +18,7 @@ import "../../css/BottomNavbar.css";
 const cafeLayer = new VectorLayer({
   className: "Cafe",
   source: new VectorSource({
-    url: "/Where-to-oslo/json/cafe.geojson",
+    url: "/json/cafe.geojson",
     format: new GeoJSON(),
   }),
   style: cafeStyle,
@@ -78,7 +78,7 @@ export function CafeButton() {
       onClick={() => setClicked((prevClicked) => !prevClicked)}
     >
       <img
-        src="/Where-to-oslo/images/kafePin_4.svg"
+        src="/images/kafePin_4.svg"
         alt="Cafe"
         className="pin-icon"
         style={{ width: "3rem", height: "3rem" }}

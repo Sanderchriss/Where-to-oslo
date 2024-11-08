@@ -13,7 +13,7 @@ export const activityStyle = (feature: FeatureLike) => {
   const activity = feature.getProperties() as activityProperties;
   return new Style({
     image: new Icon({
-      src: "/Where-to-oslo/activityPin.png",
+      src: "/activityPin.png",
       anchor: [0.5, 1],
       scale: 0.05,
     }),
@@ -24,7 +24,7 @@ export const activeActivityStyle = (feature: FeatureLike) => {
   //const resolution = map.getView().getResolutions();
   return new Style({
     image: new Icon({
-      src: "/Where-to-oslo/activityPin.png",
+      src: "/activityPin.png",
       anchor: [0.5, 1],
       scale: 0.06,
     }),

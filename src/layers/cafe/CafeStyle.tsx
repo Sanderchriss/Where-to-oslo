@@ -13,7 +13,7 @@ export const cafeStyle = (feature: FeatureLike) => {
   const cafe = feature.getProperties() as cafeProperties;
   return new Style({
     image: new Icon({
-      src: "/Where-to-oslo/kafePin.png",
+      src: "/kafePin.png",
       anchor: [0.5, 1],
       scale: 0.05,
     }),
@@ -24,7 +24,7 @@ export const activeCafeStyle = (feature: FeatureLike) => {
   //const resolution = map.getView().getResolutions();
   return new Style({
     image: new Icon({
-      src: "/Where-to-oslo/kafePin.png",
+      src: "/kafePin.png",
       anchor: [0.5, 1],
       scale: 0.06,
     }),

@@ -19,7 +19,7 @@ import { activeActivityStyle, activityStyle } from "./ActivityStyle";
 const activityLayer = new VectorLayer({
   className: "Activity",
   source: new VectorSource({
-    url: "/Where-to-oslo/json/activity.geojson",
+    url: "/json/activity.geojson",
     format: new GeoJSON(),
   }),
   style: activityStyle,
@@ -81,7 +81,7 @@ export function ActivityButton() {
       onClick={() => setClicked((prevClicked) => !prevClicked)}
     >
       <img
-        src="/Where-to-oslo/images/activityPin_4.svg"
+        src="/images/activityPin_4.svg"
         alt="Activity"
         className="pin-icon"
         style={{ width: "3rem", height: "3rem" }}

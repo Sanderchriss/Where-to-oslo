@@ -19,7 +19,7 @@ import { activeStoreStyle, storeStyle } from "./StoreStyle";
 const storeLayer = new VectorLayer({
   className: "Store",
   source: new VectorSource({
-    url: "/Where-to-oslo/json/store.geojson",
+    url: "/json/store.geojson",
     format: new GeoJSON(),
   }),
   style: storeStyle,
@@ -79,7 +79,7 @@ export function StoreButton() {
       onClick={() => setClicked((prevClicked) => !prevClicked)}
     >
       <img
-        src="/Where-to-oslo/images/storePin_2.svg"
+        src="/images/storePin_2.svg"
         alt="Store"
         className="pin-icon"
         style={{ width: "3rem", height: "3rem" }}

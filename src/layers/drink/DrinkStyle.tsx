@@ -13,12 +13,12 @@ export type drinkStyle = {
 } & Feature<Point>;
 export const drinkStyle = (feature: FeatureLike) => {
   const drinks = feature.getProperties() as drinkProperties;
-  let imageSrc = "/Where-to-oslo/images/drinkPin_4.svg"; // Default image source
+  let imageSrc = "/images/drinkPin_4.svg"; // Default image source
 
   if (drinks.description === "Bar") {
-    imageSrc = "/Where-to-oslo/images/beerPin.svg"; // Set image source for Bar description
+    imageSrc = "/images/beerPin.svg"; // Set image source for Bar description
   } else if (drinks.description === "Drink") {
-    imageSrc = "/Where-to-oslo/drinkPin.png";
+    imageSrc = "/drinkPin.png";
   }
   return new Style({
     image: new Icon({
@@ -30,12 +30,12 @@ export const drinkStyle = (feature: FeatureLike) => {
 };
 export const activeDrinkStyle = (feature: FeatureLike): Style => {
   const drinks = feature.getProperties() as drinkProperties;
-  let imageSrc = "/Where-to-oslo/images/drinkPin_4.svg"; // Default image source
+  let imageSrc = "/images/drinkPin_4.svg"; // Default image source
 
   if (drinks.description === "Bar") {
-    imageSrc = "/Where-to-oslo/images/beerPin.svg"; // Set image source for Bar description
+    imageSrc = "/images/beerPin.svg"; // Set image source for Bar description
   } else if (drinks.description === "Drink") {
-    imageSrc = "/Where-to-oslo/drinkPin.png";
+    imageSrc = "/drinkPin.png";
   }
 
   //const resolution = map.getView().getResolutions();

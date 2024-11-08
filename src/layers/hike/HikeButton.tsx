@@ -18,7 +18,7 @@ import "../../css/BottomNavbar.css";
 const hikeLayer = new VectorLayer({
   className: "Hike",
   source: new VectorSource({
-    url: "/Where-to-oslo/json/hike.geojson",
+    url: "/json/hike.geojson",
     format: new GeoJSON(),
   }),
   style: hikeStyle,
@@ -78,7 +78,7 @@ export function HikeButton() {
       onClick={() => setClicked((prevClicked) => !prevClicked)}
     >
       <img
-        src="/Where-to-oslo/images/tripPin.svg"
+        src="/images/tripPin.svg"
         alt="Hike"
         className="pin-icon"
         style={{ width: "3rem", height: "3rem" }}

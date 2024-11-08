@@ -97,7 +97,7 @@ export function Application() {
 
           {/* Default route for your main application */}
           <Route
-            path="/Where-to-oslo/"
+            path="/"
             element={
               <div>
                 <main>

@@ -18,7 +18,7 @@ import "../../css/BottomNavbar.css";
 const restaurantLayer = new VectorLayer({
   className: "Restaurant",
   source: new VectorSource({
-    url: "/Where-to-oslo/json/restaurants.geojson",
+    url: "/json/restaurants.geojson",
     format: new GeoJSON(),
   }),
   style: restaurantStyle,
@@ -80,7 +80,7 @@ export function RestaurantButton() {
       onClick={() => setClicked((prevClicked) => !prevClicked)}
     >
       <img
-        src="/Where-to-oslo/images/restaurants_4.svg"
+        src="/images/restaurants_4.svg"
         alt="Restaurant"
         className="pin-icon"
         style={{ width: "3rem", height: "3rem" }}

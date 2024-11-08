@@ -19,7 +19,7 @@ import AddFavoriteButton from "../../buttons/addFavoriteButton";
 const drinkLayer = new VectorLayer({
   className: "Drink",
   source: new VectorSource({
-    url: "/Where-to-oslo/json/drinks.geojson",
+    url: "/json/drinks.geojson",
     format: new GeoJSON(),
   }),
   style: drinkStyle,
@@ -79,7 +79,7 @@ export function DrinksButton() {
       onClick={() => setClicked((prevClicked) => !prevClicked)}
     >
       <img
-        src="/Where-to-oslo/images/beerPin.svg"
+        src="/images/beerPin.svg"
         alt="Drink"
         className="pin-icon"
         style={{ width: "3rem", height: "3rem" }}
@@ -98,7 +98,6 @@ export function DrinksButton() {
               gjøre en fredagskveld eller lønningspils med jobben. <br />{" "}
               Romslig og chill atmosfære.
             </p>
-            <AddFavoriteButton />
           </div>
         )}
       </div>
