@@ -6,6 +6,7 @@ import { MapboxVectorLayer } from "ol-mapbox-style";
 
 export function ModeSelector() {
   const { setBaseLayer } = useContext(MainContext);
+  const darkmap = process.env.DARK_MAP_KEY;
 
   const options = {
     osm: {
@@ -21,7 +22,7 @@ export function ModeSelector() {
       layer: new TileLayer({
         source: new StadiaMaps({
           layer: "alidade_smooth_dark",
-          apiKey: "69dfeec6-dedf-4d6d-8344-154bbd2724d9",
+          apiKey: darkmap,
         }),
       }),
     },
