@@ -98,14 +98,14 @@ export function DrinksButton() {
               gjøre en fredagskveld eller lønningspils med jobben. <br />{" "}
               Romslig og chill atmosfære.
             </p>
-             <AddFavoriteButton
-  feature={{
-    id: activeFeature.get("id"),
-    name: activeFeature.get("name"),
-    description: activeFeature.get("description"),
-    ...activeFeature
-  }}
-/>
+            <AddFavoriteButton
+              feature={{
+                id: activeFeature.get("id"),
+                name: activeFeature.get("name"),
+                description: activeFeature.get("description"),
+                ...activeFeature,
+              }}
+            />
           </div>
         )}
       </div>

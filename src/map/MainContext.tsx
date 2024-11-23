@@ -12,8 +12,7 @@ export const map = new Map({
   layers: [
     new MapboxVectorLayer({
       styleUrl: "mapbox://styles/sanderchriss/clulbulpb000701qz5d6qg5gf",
-      accessToken:
-        mapboxKey,
+      accessToken: mapboxKey,
     }),
   ],
   view: new View({ center: [10.7522454, 59.9138688], zoom: 12 }),
