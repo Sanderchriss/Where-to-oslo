@@ -9,6 +9,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
+    "@types/node": "^22.10.2",
     "@types/react": "^18.2.51",
     "@types/react-dom": "^18.2.18",
     "husky": "^9.0.10",
