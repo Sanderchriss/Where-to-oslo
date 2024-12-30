@@ -24,8 +24,8 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          MAPBOX_KEY: ${{secrets.MAPBOX_KEY}}
-          DARK_MAP_KEY: ${{secrets.DARK_MAP_KEY}}
+          REACT_APP_MAPBOX_KEY: ${{secrets.REACT_APP_MAPBOX_KEY}}
+          REACT_APP_DARK_MAP_KEY: ${{secrets.REACT_APP_DARK_MAP_KEY}}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist

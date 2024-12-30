@@ -7,7 +7,7 @@ import { OSM } from "ol/source";
 import { MapboxVectorLayer } from "ol-mapbox-style";
 
 useGeographic();
-const mapboxKey = process.env.MAPBOX_KEY;
+const mapboxKey = process.env.REACT_APP_MAPBOX_KEY;
 export const map = new Map({
   layers: [
     new MapboxVectorLayer({
