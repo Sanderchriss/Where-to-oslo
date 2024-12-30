@@ -14,8 +14,7 @@ export function ModeSelector() {
       name: "Open Street Map",
       layer: new MapboxVectorLayer({
         styleUrl: "mapbox://styles/sanderchriss/clulbulpb000701qz5d6qg5gf",
-        accessToken:
-          mapboxKey,
+        accessToken: mapboxKey,
       }),
     },
     dark: {
