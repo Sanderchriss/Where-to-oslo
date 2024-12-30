@@ -7,6 +7,7 @@ import { MapboxVectorLayer } from "ol-mapbox-style";
 export function ModeSelector() {
   const { setBaseLayer } = useContext(MainContext);
   const darkmap = process.env.DARK_MAP_KEY;
+  const mapboxKey = process.env.MAPBOX_KEY;
 
   const options = {
     osm: {
@@ -14,7 +15,7 @@ export function ModeSelector() {
       layer: new MapboxVectorLayer({
         styleUrl: "mapbox://styles/sanderchriss/clulbulpb000701qz5d6qg5gf",
         accessToken:
-          "pk.eyJ1Ijoic2FuZGVyY2hyaXNzIiwiYSI6ImNsbmx6Y2ZqZDJiZjgybHJsZW9yaDZmY2IifQ.2y03s2wFjieEYFZIQgGLvQ",
+          mapboxKey,
       }),
     },
     dark: {
