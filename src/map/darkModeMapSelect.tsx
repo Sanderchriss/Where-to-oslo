@@ -6,8 +6,8 @@ import { MapboxVectorLayer } from "ol-mapbox-style";
 
 export function ModeSelector() {
   const { setBaseLayer } = useContext(MainContext);
-  const darkmap = process.env.REACT_APP_DARK_MAP_KEY;
-  const mapboxKey = process.env.REACT_APP_MAPBOX_KEY;
+  const darkmap = process.env.VITE_DARK_MAP_KEY;
+  const mapboxKey = process.env.VITE_MAPBOX_KEY;
 
   const options = {
     osm: {

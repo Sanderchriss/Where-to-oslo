@@ -31,14 +31,14 @@ export function Application() {
     Layer[]
   >([]);
   const [hikeFeatureLayers, setHikeFeatureLayers] = useState<Layer[]>([]);
-  const mapboxKey = process.env.REACT_APP_MAPBOX_KEY;
+  const mapboxKey = process.env.VITE_MAPBOX_KEY;
   const [baseLayer, setBaseLayer] = useState<Layer>(
     new MapboxVectorLayer({
       styleUrl: "mapbox://styles/sanderchriss/clulbulpb000701qz5d6qg5gf",
       accessToken: mapboxKey,
     }),
   );
-  console.log("Mapbox Key:", process.env.REACT_APP_MAPBOX_KEY);
+  console.log("Mapbox Key:", process.env.VITE_MAPBOX_KEY);
   const layers = useMemo(
     () => [
       baseLayer,
