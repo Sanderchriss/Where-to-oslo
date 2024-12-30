@@ -38,7 +38,7 @@ export function Application() {
       accessToken: mapboxKey,
     }),
   );
-
+  console.log("Mapbox Key:", process.env.REACT_APP_MAPBOX_KEY);
   const layers = useMemo(
     () => [
       baseLayer,
